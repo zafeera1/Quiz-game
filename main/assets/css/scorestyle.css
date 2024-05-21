@@ -1,0 +1,93 @@
+/* score.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#score-display {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#initials-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#initials {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#score-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+#score-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+
+#score-list li:last-child {
+    margin-bottom: 0;
+}
+
+#restart-btn, #clear-scores-btn {
+    display: block;
+    margin: 10px auto; 
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+#restart-btn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+#restart-btn:hover {
+    background-color: #218838;
+}
+
+#clear-scores-btn {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+#clear-scores-btn:hover {
+    background-color: #c82333;
+}
